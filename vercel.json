@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/attendance.js": { "maxDuration": 10 },
+    "api/tasks.js": { "maxDuration": 10 },
+    "api/lunch.js": { "maxDuration": 10 }
+  },
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/attendance", "destination": "/attendance.html" },
+    { "source": "/tasks", "destination": "/tasks.html" },
+    { "source": "/lunch", "destination": "/lunch.html" }
+  ]
+}
